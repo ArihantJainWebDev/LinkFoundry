@@ -1,45 +1,97 @@
-# LinkFoundry
+<div align="center">
+  <img src="Desktop/Assets/Mark.png" alt="" width="76">
+  <h1>LinkFoundry</h1>
+  <p><strong>Multiple connections. One download.</strong></p>
+  <p>A Windows download manager that lets you watch real network traffic flow through a 3D server room.</p>
+  <p><a href="#get-linkfoundry">Get LinkFoundry</a> · <a href="#your-first-download">Quick start</a> · <a href="#how-it-works">How it works</a> · <a href="#development">Development</a></p>
+</div>
 
-A Windows 10/11 desktop queue for large HTTP and HTTPS downloads. The original console exercise still runs with `dotnet run --project PersonalDownloader.csproj`.
+![3D LinkFoundry preview showing a server, Wi-Fi and tether routes, saved file ranges, and assembly into one file](design/transfer-room/TransferRoom.gif)
 
-## Start the desktop app
+*Design preview with sample data. In the desktop app, the lights, ranges, and speed readings follow real transfer activity.*
 
-Open `release\PersonalDownloader\PersonalDownloader.Desktop.exe`, or extract the release ZIP and open the executable inside. The framework-dependent build requires the .NET 10 Windows Desktop Runtime matching the app architecture (x64 for the included build). To run from source with the .NET 10 SDK, use `dotnet run --project Desktop/PersonalDownloader.Desktop.csproj`.
+LinkFoundry started with a practical problem: losing a connection halfway through a large download. It saves received bytes to disk, resumes compatible downloads after an interruption, and can assign different parts of a file to Wi-Fi, USB tethering, and Ethernet.
 
-Paste a direct link, choose **Add download**, and pick a fresh destination. One queued file runs at a time. Select its row to pause it, resume it, open its folder, or remove its queue entry. Closing the window saves active work for the next launch. Explicitly paused jobs wait for Resume. A failed job retains recoverable parts and can be retried.
+## Get LinkFoundry
 
-## Browser links and installation
+**Platform:** Windows 10 or 11. The Windows x64 ZIP requires the **.NET 10 Desktop Runtime (x64)**. [Get the Desktop Runtime from Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/10.0).
 
-Close the app and run `.\Install.ps1` from PowerShell to install for your Windows account, register the link handler, and create a Start menu shortcut. In Chrome or Edge, open the extensions manager, enable developer mode, and choose **Load unpacked**. Select the **Browser** folder printed by the installer. Right-click a download link and choose **Send link to Personal Downloader**. Accept the browser's external-app prompt, then choose the destination in the dashboard. You can also copy a link directly into the app.
+### Run the Windows ZIP
 
-Browser handoff transfers the URL alone. Downloads requiring browser cookies, POST requests, blob URLs, expired signed links or private launcher protocols need their original application or a new direct link. Queue records include the original URL, which may contain a private access token. They live under your Windows profile in `%LOCALAPPDATA%\PersonalDownloader\Queue`.
+1. Open [GitHub Releases](https://github.com/ArihantJainWebDev/LinkFoundry/releases) and download `PersonalDownloader-Windows-x64.zip` from **Assets** when available.
+2. Right-click the ZIP and select **Extract All**.
+3. Open the extracted folder and double-click **PersonalDownloader.Desktop.exe**. The executable still uses the original project name.
 
-## How recovery works
+**Release status:** The source is on GitHub. A prebuilt ZIP has yet to be published there. Use the source instructions below to run the app today.
 
-1. The engine requests byte zero and checks the server's range response, total length, final URL and strong ETag (a version identifier).
-2. For a range-capable file with a strong ETag, the engine divides the file into up to four fixed ranges. Each worker writes to its own part inside a job-specific folder alongside the destination.
-3. After a pause or connection loss, it probes again and reads the length of each part from disk. Each worker requests the missing bytes with an If-Range condition. A changed representation starts a new generation. A server that ignores ranges receives a fresh whole-file transfer.
-4. After verifying lengths, the engine joins the parts and moves the result into place. A pre-existing destination is protected. Multi-part assembly can temporarily require roughly twice the file size in free space. A strong ETag identifies the remote version and does not provide a cryptographic integrity check against a publisher's checksum.
+### Run from source today
 
-Without validated range support, interrupted transfers restart from byte zero. Unknown-length streams use byte-count progress. Connection failures and timeouts keep retrying with backoff up to 30 seconds between attempts until paused. HTTP 408/429 and server errors retry up to six times. After that, use **Resume / retry** once the server or link is available.
+Install the [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) and Git, then run these commands in PowerShell.
 
-## Networks
+```powershell
+git clone https://github.com/ArihantJainWebDev/LinkFoundry.git
+cd LinkFoundry
+dotnet run --project Desktop/PersonalDownloader.Desktop.csproj
+```
 
-The **Transfer room** tab follows the selected queue entry. The room shows the source, routes, saved byte ranges and local drive. The lower bars keep file-offset order as workers download concurrently. During assembly the thin strips track bytes copied into the final file. The **Transfer queue** tab lets you select another job.
+To create your own Windows ZIP from the checkout, run `.\Publish.ps1`. Find the generated archive in `release\`.
 
-Speeds are sampled from bytes written during the current attempt. The moving blocks summarize activity. **Windows route** means automatic routing. Explicitly bound connections show their interface names. Wi-Fi, USB tethering and LAN have separate paths. Unused paths stay dim. Selecting a rack card arms that adapter for new jobs. Automatic routing identifies the adapter from the local socket address when available; unidentifiable traffic is labeled Windows route in the range panel. Previously saved ranges can appear as **On disk** after reopening the app. Unknown-length transfers show bytes until the final size is known. Windows reduced-motion settings disable moving network blocks.
+## Your first download
 
-Leave all interfaces unselected for Windows routing, including normal proxy settings. To split large range-capable files across connections, select interfaces before adding the job. Workers open sockets bound to those Windows interfaces. Explicit selection uses direct connections. Offline selections are skipped on the next attempt. If none remain available the engine uses Windows routing. Retries rotate the preferred interface. Multiple interfaces on one upstream link may share the same bandwidth. DNS resolution uses the system resolver.
+1. Paste a direct HTTP or HTTPS file link and select **Add download**.
+2. Choose where to save it. LinkFoundry checks the server for the original filename, including links that redirect to an installer.
+3. Open **Transfer room** to see the active routes, per-route speeds, and saved file ranges.
+4. In **Library**, select a download to pause, resume, retry, or open its folder. Double-click a completed card, press **Enter**, or select **Open** to open the saved file. Opening an installer launches that installer.
 
-## Development and checks
+### Use more than one connection
 
-| Location | Purpose |
+Connect your network devices in Windows. In the **Network rack**, select the adapters you want to use **before** adding a download. Leave every adapter unselected to let Windows route the connection automatically.
+
+For a compatible large file, each adapter can carry different byte ranges. Unused paths stay dim, selected adapters are armed for new jobs, and packet motion follows measured transfer activity. With automatic routing, the app shows the adapter when it can identify it from the connection. Otherwise it displays **Windows route**.
+
+Wi-Fi and USB tethering have been tested together on a physical laptop. A simultaneous Wi-Fi, tether, and Ethernet transfer is still pending physical validation. Connections that share an upstream router or provider can share the same bandwidth bottleneck.
+
+### Send links from Chrome or Edge
+
+1. Close the app and run `.\Install.ps1` from the extracted bundle or source checkout. It installs for your Windows account and registers the browser handoff.
+2. Open Chrome or Edge’s extension manager, enable **Developer mode**, and choose **Load unpacked**.
+3. Select the **Browser** folder printed by the installer.
+4. Right-click a direct file link and select **Send link to Personal Downloader**, then choose a destination in the app.
+
+The extension sends the URL. Cookie-protected downloads, blob links, POST-based downloads, and private launcher protocols may require the originating browser or app.
+
+## How it works
+
+| Stage | What LinkFoundry does |
 | --- | --- |
-| Core | Streaming HTTP transfers, interface binding, queue persistence and recovery |
-| Desktop | WPF dashboard, job scheduling and single-instance browser handoff |
-| Browser | Chromium context-menu extension |
-| Checks | Local HTTP integration tests with forced disconnects |
-| DesktopChecks | Windows dashboard interaction checks |
-| Program.cs | Original learning prototype |
+| **Probe** | Requests byte zero and checks the server’s range response, final URL, size, and strong ETag. |
+| **Download** | Splits a compatible file into up to four ranges. Workers stream bytes into separate files, using the selected adapters when available. |
+| **Recover** | After an interruption, checks the remote version again and requests the missing bytes. A changed version starts fresh. |
+| **Assemble** | Checks expected lengths, combines ranges in file order, and moves the completed result into place. An existing destination is protected. |
 
-Run the checks with `dotnet run --project Checks`, `dotnet run --project DesktopChecks`, and `node --test Checks/browser.test.cjs`. The checks use local fixtures. Run `.\Publish.ps1` to build the release folder and ZIP. Rerun the installer after publishing an update. The Windows CI workflow runs on pushes and pull requests when hosted on GitHub with Actions enabled.
+Servers without validated byte ranges and a strong ETag use one stream and restart interrupted transfers from zero. Multi-part assembly can temporarily need roughly twice the file size in free space. Queue records are saved under `%LOCALAPPDATA%\PersonalDownloader\Queue` and contain the original URLs.
+
+## Development
+
+LinkFoundry uses **C#**, **.NET 10**, and **WPF**. The 3D room uses WPF models and animates from the same progress counters that update the range bars.
+
+| Directory | What’s inside |
+| --- | --- |
+| [Core](Core/) | HTTP streaming, adapter binding, queue persistence, and recovery |
+| [Desktop](Desktop/) | Dashboard, network rack, 3D room, and download library |
+| [Browser](Browser/) | Chrome and Edge context-menu extension |
+| [Checks](Checks/) | Local HTTP integration checks for ranges, dropped connections, and recovery |
+| [DesktopChecks](DesktopChecks/) | Windows UI checks for adapter selection, progress, and file opening |
+| [design](design/) | WPF concept art and render scripts |
+
+```powershell
+dotnet run --project Checks -c Release
+dotnet run --project DesktopChecks -c Release
+node --test Checks/browser.test.cjs
+```
+
+The browser check requires Node.js. [Windows CI](https://github.com/ArihantJainWebDev/LinkFoundry/actions/workflows/windows-checks.yml) runs the checks and builds the desktop app.
+
+## Feedback
+
+[Open an issue](https://github.com/ArihantJainWebDev/LinkFoundry/issues) with your Windows version, adapter types, and steps to reproduce. For download problems, a public sample link that reproduces the behavior is more useful than a private or signed URL.
