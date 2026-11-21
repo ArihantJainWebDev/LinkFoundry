@@ -28,7 +28,7 @@ public partial class TransferRoom : UserControl
     public TransferRoom()
     {
         InitializeComponent();
-        hardware = (Canvas)Application.LoadComponent(new Uri("/PersonalDownloader.Desktop;component/RoomHardware.xaml", UriKind.Relative));
+        hardware = (Canvas)Application.LoadComponent(new Uri("/LinkFoundry;component/RoomHardware.xaml", UriKind.Relative));
         HardwareHost.Content = hardware;
         IsVisibleChanged += (_, _) => Display(current);
         Display(null);

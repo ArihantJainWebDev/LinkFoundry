@@ -18,11 +18,13 @@ LinkFoundry started with a practical problem: losing a connection halfway throug
 
 ### Run the Windows ZIP
 
-1. Download the [Windows x64 beta ZIP](https://github.com/ArihantJainWebDev/LinkFoundry/releases/download/v0.1.0-beta/PersonalDownloader-Windows-x64.zip) from the [v0.1.0-beta release](https://github.com/ArihantJainWebDev/LinkFoundry/releases/tag/v0.1.0-beta).
+1. Download the [Windows x64 ZIP](https://github.com/ArihantJainWebDev/LinkFoundry/releases/download/v1.0.0/LinkFoundry-Windows-x64.zip) from the [v1.0.0 release](https://github.com/ArihantJainWebDev/LinkFoundry/releases/tag/v1.0.0).
 2. Right-click the ZIP and select **Extract All**.
-3. Open the extracted folder and double-click **PersonalDownloader.Desktop.exe**. The executable still uses the original project name.
+3. Open the extracted folder and double-click **LinkFoundry.exe**.
 
-**Release status:** Public beta. See [LICENSE](LICENSE) for the MIT license.
+**Release status:** Version 1.0. See [LICENSE](LICENSE) for the MIT license.
+
+The GitHub build is unsigned. Windows SmartScreen may show an unrecognized publisher warning when it first runs.
 
 ### Run from source today
 
@@ -56,7 +58,7 @@ Wi-Fi and USB tethering have been tested together on a physical laptop. A simult
 1. Close the app and run `.\Install.ps1` from the extracted bundle or source checkout. It installs for your Windows account and registers the browser handoff.
 2. Open Chrome or Edge’s extension manager, enable **Developer mode**, and choose **Load unpacked**.
 3. Select the **Browser** folder printed by the installer.
-4. Right-click a direct file link and select **Send link to Personal Downloader**, then choose a destination in the app.
+4. Right-click a direct file link and select **Send link to LinkFoundry**, then choose a destination in the app.
 
 The extension sends the URL. Cookie-protected downloads, blob links, POST-based downloads, and private launcher protocols may require the originating browser or app.
 

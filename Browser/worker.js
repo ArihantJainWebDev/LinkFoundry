@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.removeAll(() => chrome.contextMenus.create({
     id: "send-link",
-    title: "Send link to Personal Downloader",
+    title: "Send link to LinkFoundry",
     contexts: ["link"],
     targetUrlPatterns: ["http://*/*", "https://*/*"]
   }));

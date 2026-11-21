@@ -2,7 +2,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
     <UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
-    <AssemblyName>PersonalDownloader.Desktop</AssemblyName>
+    <AssemblyName>LinkFoundry</AssemblyName><Product>LinkFoundry</Product><Version>1.0.0</Version>
     <ApplicationIcon>Assets/App.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup><ProjectReference Include="../Core/Core.csproj" /></ItemGroup>

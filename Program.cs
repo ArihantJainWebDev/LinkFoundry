@@ -1,6 +1,6 @@
-﻿using System.Net.Http;
+using System.Net.Http;
 
-Console.WriteLine("Personal Downloader");
+Console.WriteLine("LinkFoundry");
 
 while (true)
 {

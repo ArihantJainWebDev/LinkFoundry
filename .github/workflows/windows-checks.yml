@@ -13,4 +13,4 @@ jobs:
       - run: dotnet run --project Checks -c Release
       - run: dotnet run --project DesktopChecks -c Release
       - run: node --test Checks/browser.test.cjs
-      - run: dotnet publish Desktop/PersonalDownloader.Desktop.csproj -c Release --no-self-contained -o release/PersonalDownloader
+      - run: dotnet publish Desktop/PersonalDownloader.Desktop.csproj -c Release --no-self-contained -o release/LinkFoundry

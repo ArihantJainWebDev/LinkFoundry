@@ -21,7 +21,7 @@ public sealed class RackSlot(Adapter adapter) : INotifyPropertyChanged
                      adapter.Description.Contains("Remote NDIS", StringComparison.OrdinalIgnoreCase) ||
                      adapter.Description.Contains("RNDIS", StringComparison.OrdinalIgnoreCase) ||
                      adapter.Description.Contains("Apple Mobile Device", StringComparison.OrdinalIgnoreCase)) model = "Phone";
-            return $"/PersonalDownloader.Desktop;component/Assets/{model}.png";
+            return $"/LinkFoundry;component/Assets/{model}.png";
         }
     }
     public event PropertyChangedEventHandler? PropertyChanged;
