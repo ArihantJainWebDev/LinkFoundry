@@ -1,0 +1,65 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="1320" Height="850" Background="#0C141B">
+ <Border Canvas.Left="0" Canvas.Top="0" Width="1320" Height="64" Background="#19242B" CornerRadius="0" BorderBrush="#19242B" BorderThickness="1"/>
+ <Border Canvas.Left="24" Canvas.Top="17" Width="30" Height="30" Background="#BCF385" CornerRadius="8" BorderBrush="#BCF385" BorderThickness="1"/>
+ <TextBlock Canvas.Left="30" Canvas.Top="15" Text="↓" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="23" Foreground="#152520"/>
+ <TextBlock Canvas.Left="67" Canvas.Top="18" Text="Personal Downloader" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="19" Foreground="#F1F5F4"/>
+ <Border Canvas.Left="550" Canvas.Top="13" Width="555" Height="38" Background="#101A21" CornerRadius="7" BorderBrush="#42535C" BorderThickness="1"/>
+ <TextBlock Canvas.Left="566" Canvas.Top="22" Text="Paste download link" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="1116" Canvas.Top="13" Width="180" Height="38" Background="#BCF385" CornerRadius="7" BorderBrush="#BCF385" BorderThickness="1"/>
+ <TextBlock Canvas.Left="1137" Canvas.Top="21" Text="＋  Add download" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="15" Foreground="#152520"/>
+ <TextBlock Canvas.Left="28" Canvas.Top="87" Text="World Atlas.zip" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="37" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="30" Canvas.Top="142" Text="96 MiB    /    ZIP archive" FontFamily="Segoe UI" FontWeight="Normal" FontSize="15" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="1101" Canvas.Top="100" Width="193" Height="42" Background="#203329" CornerRadius="22" BorderBrush="#203329" BorderThickness="1"/>
+ <TextBlock Canvas.Left="1122" Canvas.Top="109" Text="●    Downloading" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="17" Foreground="#BCF385"/>
+ <Border Canvas.Left="26" Canvas.Top="185" Width="825" Height="367" Background="#101923" CornerRadius="12" BorderBrush="#354651" BorderThickness="1"/>
+ <Viewbox Canvas.Left="33" Canvas.Top="193" Width="808" Height="347"><ContentControl x:Name="Room"/></Viewbox>
+ <Border Canvas.Left="45" Canvas.Top="202" Width="135" Height="26" Background="#263640" CornerRadius="5" BorderBrush="#263640" BorderThickness="1"/>
+ <TextBlock Canvas.Left="56" Canvas.Top="206" Text="TRANSFER ROOM" FontFamily="Consolas" FontWeight="SemiBold" FontSize="12" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="864" Canvas.Top="185" Width="430" Height="367" Background="#1A272F" CornerRadius="12" BorderBrush="#354651" BorderThickness="1"/>
+ <TextBlock Canvas.Left="888" Canvas.Top="204" Text="Saved to disk" FontFamily="Segoe UI" FontWeight="Normal" FontSize="18" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="884" Canvas.Top="226" Text="50" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="65" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="965" Canvas.Top="266" Text="/ 96 MiB" FontFamily="Segoe UI" FontWeight="Normal" FontSize="23" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="890" Canvas.Top="319" Width="376" Height="1" Background="#3C4B52" CornerRadius="0" BorderBrush="#3C4B52" BorderThickness="1"/>
+ <TextBlock Canvas.Left="890" Canvas.Top="340" Text="A" FontFamily="Consolas" FontWeight="SemiBold" FontSize="14" Foreground="#BCF385"/>
+ <TextBlock Canvas.Left="918" Canvas.Top="340" Text="0–24 MiB" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="1038" Canvas.Top="347" Width="226" Height="7" Background="#354650" CornerRadius="3" BorderBrush="#354650" BorderThickness="1"/>
+ <Border Canvas.Left="1038" Canvas.Top="347" Width="141.25" Height="7" Background="#BCF385" CornerRadius="3" BorderBrush="#BCF385" BorderThickness="1"/>
+ <TextBlock Canvas.Left="890" Canvas.Top="374" Text="B" FontFamily="Consolas" FontWeight="SemiBold" FontSize="14" Foreground="#7DD8F1"/>
+ <TextBlock Canvas.Left="918" Canvas.Top="374" Text="24–48 MiB" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="1038" Canvas.Top="381" Width="226" Height="7" Background="#354650" CornerRadius="3" BorderBrush="#354650" BorderThickness="1"/>
+ <Border Canvas.Left="1038" Canvas.Top="381" Width="94.24199999999999" Height="7" Background="#7DD8F1" CornerRadius="3" BorderBrush="#7DD8F1" BorderThickness="1"/>
+ <TextBlock Canvas.Left="890" Canvas.Top="408" Text="C" FontFamily="Consolas" FontWeight="SemiBold" FontSize="14" Foreground="#BCF385"/>
+ <TextBlock Canvas.Left="918" Canvas.Top="408" Text="48–72 MiB" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="1038" Canvas.Top="415" Width="226" Height="7" Background="#354650" CornerRadius="3" BorderBrush="#354650" BorderThickness="1"/>
+ <Border Canvas.Left="1038" Canvas.Top="415" Width="141.25" Height="7" Background="#BCF385" CornerRadius="3" BorderBrush="#BCF385" BorderThickness="1"/>
+ <TextBlock Canvas.Left="890" Canvas.Top="442" Text="D" FontFamily="Consolas" FontWeight="SemiBold" FontSize="14" Foreground="#7DD8F1"/>
+ <TextBlock Canvas.Left="918" Canvas.Top="442" Text="72–96 MiB" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="1038" Canvas.Top="449" Width="226" Height="7" Background="#354650" CornerRadius="3" BorderBrush="#354650" BorderThickness="1"/>
+ <Border Canvas.Left="1038" Canvas.Top="449" Width="94.24199999999999" Height="7" Background="#7DD8F1" CornerRadius="3" BorderBrush="#7DD8F1" BorderThickness="1"/>
+ <Border Canvas.Left="889" Canvas.Top="487" Width="138" Height="40" Background="#32444D" CornerRadius="6" BorderBrush="#32444D" BorderThickness="1"/>
+ <TextBlock Canvas.Left="915" Canvas.Top="496" Text="Ⅱ   Pause" FontFamily="Segoe UI" FontWeight="Normal" FontSize="16" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="1050" Canvas.Top="496" Text="Open folder" FontFamily="Segoe UI" FontWeight="Normal" FontSize="16" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="28" Canvas.Top="572" Text="Network bays" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="24" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="201" Canvas.Top="581" Text="Select connections for new downloads" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="1175" Canvas.Top="580" Text="↻   Refresh" FontFamily="Segoe UI" FontWeight="Normal" FontSize="15" Foreground="#A3B4BC"/>
+ <Border Canvas.Left="26" Canvas.Top="618" Width="425" Height="139" Background="#1A2A32" CornerRadius="10" BorderBrush="#42555D" BorderThickness="1"/>
+ <Viewbox Canvas.Left="32" Canvas.Top="627" Width="142" Height="111"><ContentControl x:Name="Router"/></Viewbox>
+ <TextBlock Canvas.Left="183" Canvas.Top="638" Text="Wi-Fi" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="23" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="184" Canvas.Top="675" Text="12 MiB/s" FontFamily="Consolas" FontWeight="SemiBold" FontSize="19" Foreground="#BCF385"/>
+ <TextBlock Canvas.Left="184" Canvas.Top="710" Text="Ranges A + C" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="406" Canvas.Top="631" Text="☑" FontFamily="Segoe UI" FontWeight="Normal" FontSize="20" Foreground="#BCF385"/>
+ <Border Canvas.Left="464" Canvas.Top="618" Width="425" Height="139" Background="#1A2A32" CornerRadius="10" BorderBrush="#42555D" BorderThickness="1"/>
+ <Viewbox Canvas.Left="470" Canvas.Top="627" Width="142" Height="111"><ContentControl x:Name="Phone"/></Viewbox>
+ <TextBlock Canvas.Left="621" Canvas.Top="638" Text="USB tether" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="23" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="622" Canvas.Top="675" Text="8 MiB/s" FontFamily="Consolas" FontWeight="SemiBold" FontSize="19" Foreground="#7DD8F1"/>
+ <TextBlock Canvas.Left="622" Canvas.Top="710" Text="Ranges B + D" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="844" Canvas.Top="631" Text="☑" FontFamily="Segoe UI" FontWeight="Normal" FontSize="20" Foreground="#7DD8F1"/>
+ <Border Canvas.Left="902" Canvas.Top="618" Width="392" Height="139" Background="#17242D" CornerRadius="10" BorderBrush="#354651" BorderThickness="1"/>
+ <TextBlock Canvas.Left="920" Canvas.Top="632" Text="Combined speed" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="919" Canvas.Top="656" Text="20 MiB/s" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="26" Foreground="#F1F5F4"/>
+ <Polyline Points="920,723 926.17,717.9664553359486 932.34,717.4943595068597 938.51,719.555025672712 944.68,718.8214680638339 950.85,714.8679342912108 957.02,712.9286624207288 963.19,716.0629196137338 969.36,720.5037510274793 975.53,721.1894854423899 981.7,719.1740243164438 987.87,719.7938155393671 994.04,724.3729527070249 1000.21,727.9665094967037 1006.38,726.5623180088388 1012.55,722.9359664404938 1018.72,722.3732156547068 1024.89,724.7023855260578 1031.06,724.6192046477232 1037.23,719.8088911274114 1043.4,714.637849487419 1049.57,713.8425364682824 1055.74,715.6793973390593 1061.91,714.8083584850052 1068.08,710.5475351065403 1074.25,708.0641149399379 1080.42,710.6939367620894 1086.59,714.9293645298181 1092.76,715.6115493477718 1098.93,713.5280638059564 1105.1,714.0079229394571 1111.27,718.6489994549559 1117.44,722.6432564545954 1123.61,721.7493379256457 1129.78,718.4542815995951 1135.95,718.08121002474 1142.12,720.7111678119129 1148.29,721.0733458572812 1154.46,716.567529619761 1160.63,711.3459759241553 1166.8,710.2995381484786 1172.97,711.9674797926132 1179.1399999999999,711.005331159154 1185.31,706.4724414732877 1191.48,703.4521373263105 1197.65,705.5474480620342 1203.82,709.5220544090715 1209.99,710.1386393913044 1216.1599999999999,707.9222960255977 1222.33,708.186889534928 1228.5,712.8070733620623 1234.67,717.1321028348655 1240.84,716.7091331609838 1247.01,713.7339123515977 1253.18,713.5541471736525 1259.35,716.503050897625 1265.52,717.3552808965753 1271.69,713.2277134856653" Stroke="#BCF385" StrokeThickness="2.5"/>
+ <Border Canvas.Left="26" Canvas.Top="782" Width="1268" Height="1" Background="#35444B" CornerRadius="0" BorderBrush="#35444B" BorderThickness="1"/>
+ <TextBlock Canvas.Left="29" Canvas.Top="801" Text="Transfer queue" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="17" Foreground="#F1F5F4"/>
+ <TextBlock Canvas.Left="182" Canvas.Top="804" Text="1 active    ·    1 queued    ·    1 completed" FontFamily="Segoe UI" FontWeight="Normal" FontSize="14" Foreground="#A3B4BC"/>
+ <TextBlock Canvas.Left="1154" Canvas.Top="802" Text="View queue  →" FontFamily="Segoe UI" FontWeight="Normal" FontSize="15" Foreground="#7DD8F1"/>
+ </Canvas>

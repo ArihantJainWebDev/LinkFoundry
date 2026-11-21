@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+/release/
+*.user
+.vs/
+/bookwork/
+/doc.pdf
+/partial-test.pdf
+/test-document.pdf
+/my-page.html
+/download-*.html

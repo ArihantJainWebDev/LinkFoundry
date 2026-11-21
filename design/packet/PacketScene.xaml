@@ -1,0 +1,68 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="384" Height="260" ClipToBounds="True">
+<Canvas.Resources>
+<Storyboard x:Key="Dock" RepeatBehavior="Forever">
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Packet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)">
+<LinearDoubleKeyFrame KeyTime="0:0:0" Value="-42"/>
+<SplineDoubleKeyFrame KeyTime="0:0:1.45" Value="6" KeySpline=".45,0,.3,1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.8" Value="6"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Packet" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.45" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.8" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+</Storyboard>
+</Canvas.Resources>
+<Path Data="M-93,219.32 L103,305.32" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M18,188.68 L216,101.68" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M-61,205.24 L135,291.24" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M50,202.76 L248,115.75999999999999" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M-29,191.16 L167,277.16" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M82,216.84 L280,129.84" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M3,177.08 L199,263.08" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M114,230.92 L312,143.92" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M35,163 L231,249" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M146,245 L344,158" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M67,148.92 L263,234.92" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M178,259.08 L376,172.08" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M99,134.84 L295,220.84" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M210,273.16 L408,186.16" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M131,120.75999999999999 L327,206.76" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M242,287.24 L440,200.24" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M163,106.68 L359,192.68" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M274,301.32 L472,214.32" Fill="Transparent" Stroke="#253441" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M74,174 L192,224 192,236 74,186 Z" Fill="#263442" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,224 L310,174 310,186 192,236 Z" Fill="#1A2633" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M74,174 L192,124 310,174 192,224 Z" Fill="#354656" Stroke="#617482" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M84,167 L192,212 192,218 84,173 Z" Fill="#415361" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,212 L300,167 300,173 192,218 Z" Fill="#354552" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M84,167 L192,122 300,167 192,212 Z" Fill="#16232D" Stroke="#778691" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M108,163 L192,198 192,203 108,168 Z" Fill="#283640" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,198 L276,163 276,168 192,203 Z" Fill="#24343D" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M108,163 L192,128 276,163 192,198 Z" Fill="#41555A" Stroke="#718888" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,154 L192,183 192,190 124,161 Z" Fill="#344452" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,183 L260,154 260,161 192,190 Z" Fill="#243442" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,154 L192,125 260,154 192,183 Z" Fill="#516374" Stroke="#8496A1" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,144 L192,173 192,180 124,151 Z" Fill="#344452" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,173 L260,144 260,151 192,180 Z" Fill="#243442" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,144 L192,115 260,144 192,173 Z" Fill="#516374" Stroke="#8496A1" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,134 L192,163 192,170 124,141 Z" Fill="#344452" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,163 L260,134 260,141 192,170 Z" Fill="#243442" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,134 L192,105 260,134 192,163 Z" Fill="#516374" Stroke="#8496A1" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,123 L124,53 M260,123 L260,53" Stroke="#668D7B" StrokeDashArray="3,5"/>
+<Canvas x:Name="Packet">
+<Canvas.RenderTransform>
+<TranslateTransform/>
+</Canvas.RenderTransform>
+<Path Data="M124,120 L192,149 192,158 124,129 Z" Fill="#79AA53" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M192,149 L260,120 260,129 192,158 Z" Fill="#568944" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M124,120 L192,91 260,120 192,149 Z" Fill="#C9FB80" Stroke="#E3FFB1" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M151,119 L190,102 232,120 193,137 Z" Fill="Transparent" Stroke="#8CB757" StrokeThickness="1" StrokeLineJoin="Round"/>
+<Path Data="M179,117 L190,112 206,119 195,124 Z" Fill="#334633" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round"/>
+</Canvas>
+<Path Data="M103,186 L108,188" Fill="Transparent" Stroke="#C9FB80" StrokeThickness="2" StrokeLineJoin="Round"/>
+<Path Data="M111,189.5 L116,191.5" Fill="Transparent" Stroke="#C9FB80" StrokeThickness="2" StrokeLineJoin="Round"/>
+<Path Data="M119,193 L124,195" Fill="Transparent" Stroke="#C9FB80" StrokeThickness="2" StrokeLineJoin="Round"/>
+<Path Data="M127,196.5 L132,198.5" Fill="Transparent" Stroke="#C9FB80" StrokeThickness="2" StrokeLineJoin="Round"/>
+</Canvas>

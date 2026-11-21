@@ -1,0 +1,5 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="32" Height="32" Background="#19242B">
+<Path Fill="#BCF385" Data="M2,6 L8,3 8,12 16,17 16,24 2,16 Z"/>
+<Path Fill="#7DD8F1" Data="M30,6 L24,3 24,12 16,17 16,24 30,16 Z"/>
+<Path Fill="#EBF4EF" Data="M4,20 L16,27 28,20 28,24 16,31 4,24 Z"/>
+</Canvas>

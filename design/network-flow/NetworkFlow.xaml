@@ -1,0 +1,1104 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="1000" Height="506" Background="#101720" TextOptions.TextFormattingMode="Display">
+<Canvas.Resources>
+<Storyboard x:Key="Flow" Duration="0:0:9" RepeatBehavior="Forever">
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte0_0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.134" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.487" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.884" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.237" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.634" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.987" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.384" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.737" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.134" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.487" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.884" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.237" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.500" Value="249"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte0_0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.134" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.487" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.884" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.237" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.634" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.987" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.384" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.737" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.134" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.487" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.884" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.237" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.500" Value="184"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte0_0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.440" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.498" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.550" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.190" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.248" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.300" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.940" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.998" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte0_1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.509" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.862" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.259" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.612" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.009" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.362" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.759" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.112" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.509" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.862" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.125" Value="249"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte0_1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.509" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.862" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.259" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.612" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.009" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.362" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.759" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.112" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.509" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.862" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.125" Value="184"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte0_1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.425" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.065" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.123" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.175" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.815" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.873" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.925" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.565" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.623" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.675" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.315" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.373" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.425" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte1_0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.197" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.715" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.297" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.815" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.397" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.915" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.497" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.015" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.597" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.115" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.697" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.215" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.600" Value="249"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte1_0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.197" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.715" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.297" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.815" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.397" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.915" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.497" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.015" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.597" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.115" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.697" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.215" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.600" Value="284"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte1_0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.040" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.098" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.150" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.140" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.198" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.240" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.298" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.350" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.340" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.398" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.450" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.440" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.498" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.550" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte1_1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.747" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.265" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.847" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.365" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.947" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.465" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.047" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.565" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="249"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="147"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.147" Value="170"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.665" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="249"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte1_1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.747" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.265" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.847" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.365" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.947" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.465" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.047" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.565" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.147" Value="234"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.665" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="284"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte1_1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.590" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.648" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.700" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.790" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.848" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.900" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.890" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.948" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.000" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.990" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte2_0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.183" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.371" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.933" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.121" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.683" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.871" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.433" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.621" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.183" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.371" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.933" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.121" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.500" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte2_0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.183" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.371" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.933" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.121" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.683" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.871" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.433" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.621" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.183" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.371" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.933" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.121" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.500" Value="164"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte2_0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.440" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.498" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.550" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.190" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.248" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.300" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.940" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.998" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte2_1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.558" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.746" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.308" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.496" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.058" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.246" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.808" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.996" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.558" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.746" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.125" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte2_1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.558" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.746" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.308" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.496" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.058" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.246" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.808" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.996" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.558" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.746" Value="164"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.125" Value="164"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte2_1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.425" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.065" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.123" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.175" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.815" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.873" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.925" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.565" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.623" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.675" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.315" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.373" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.425" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte3_0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.182" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.373" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.932" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.123" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.682" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.873" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.432" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.623" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.182" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.373" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.932" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.123" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.500" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte3_0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.182" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.373" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.932" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.123" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.682" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.873" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.432" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.623" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.182" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.373" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.932" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.123" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.500" Value="206"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte3_0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.440" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.498" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.550" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.190" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.248" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.300" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.940" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.998" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte3_1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.557" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.748" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.307" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.498" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.057" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.248" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.807" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.998" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.557" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.748" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.125" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte3_1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.557" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.748" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.307" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.498" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.057" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.248" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.807" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.998" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.557" Value="184"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.748" Value="206"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.125" Value="206"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte3_1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.375" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.425" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.065" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.123" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.125" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.175" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.815" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.873" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.875" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.925" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.565" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.623" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.625" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.675" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.315" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.373" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.375" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.425" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte4_0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.269" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.543" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.369" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.643" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.469" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.743" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.569" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.843" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.669" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.943" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.769" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.043" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.600" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte4_0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.269" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.543" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.369" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.643" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.469" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.743" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.569" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.843" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.669" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.943" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.769" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.043" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.600" Value="264"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte4_0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.040" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.098" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.150" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.140" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.198" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.240" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.298" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.350" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.340" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.398" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.450" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.440" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.498" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.550" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte4_1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.819" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.093" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.919" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.193" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.019" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.293" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.119" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.393" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.219" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.493" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte4_1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.819" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.093" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.919" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.193" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.019" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.293" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.119" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.393" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.219" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.493" Value="264"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="264"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte4_1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.590" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.648" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.700" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.790" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.848" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.900" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.890" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.948" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.000" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.990" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte5_0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.267" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.547" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.367" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.647" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.467" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.747" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.567" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.847" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.667" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.947" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.767" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.047" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.600" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte5_0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.267" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.547" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.367" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.647" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.467" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.747" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.567" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.847" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.667" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.947" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.767" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.047" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.600" Value="306"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte5_0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.040" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.098" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.100" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.150" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.140" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.198" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.200" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.250" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.240" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.298" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.300" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.350" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.340" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.398" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.400" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.450" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.440" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.498" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.550" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte5_1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.817" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.097" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.917" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.197" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.017" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.297" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.117" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.397" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="585"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="418"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.217" Value="460"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.497" Value="498"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="585"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte5_1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.817" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.097" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.917" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.197" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.017" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.297" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.117" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.397" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.217" Value="284"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.497" Value="306"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="306"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Byte5_1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.550" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.590" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.648" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.650" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:1.700" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.690" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.748" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.750" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:2.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.790" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.848" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.850" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:3.900" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.890" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.948" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.950" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.000" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:5.990" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<StringAnimationUsingKeyFrames Storyboard.TargetName="Rate0" Storyboard.TargetProperty="Text">
+<DiscreteStringKeyFrame KeyTime="0:0:0.000" Value="12 MiB/s"/>
+<DiscreteStringKeyFrame KeyTime="0:0:4.000" Value="48 MiB saved"/>
+</StringAnimationUsingKeyFrames>
+<StringAnimationUsingKeyFrames Storyboard.TargetName="Rate1" Storyboard.TargetProperty="Text">
+<DiscreteStringKeyFrame KeyTime="0:0:0.000" Value="8 MiB/s"/>
+<DiscreteStringKeyFrame KeyTime="0:0:6.000" Value="48 MiB saved"/>
+</StringAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Fill0" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="194"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Fill1" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="194"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Fill2" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="194"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Fill3" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="194"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Part0" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="223"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Letter0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge0" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.050" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.390" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.450" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge0" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="736"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.420" Value="134"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge0" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="162"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.420" Value="435"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Part1" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:4.000" Value="223"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Letter1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge1" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.940" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.990" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.330" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.390" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge1" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:6.940" Value="736"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.360" Value="586"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge1" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:6.940" Value="204"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.360" Value="435"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Part2" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="223"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Letter2" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge2" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.470" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.520" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.860" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.920" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge2" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:6.470" Value="736"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.890" Value="360"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge2" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:6.470" Value="262"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.890" Value="435"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Part3" Storyboard.TargetProperty="Width">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:6.000" Value="223"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Letter3" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.500" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:0.600" Value="1"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge3" Storyboard.TargetProperty="Opacity">
+<LinearDoubleKeyFrame KeyTime="0:0:0.000" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.410" Value="0"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.460" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.800" Value="1"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.860" Value="0"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge3" Storyboard.TargetProperty="(Canvas.Left)">
+<LinearDoubleKeyFrame KeyTime="0:0:7.410" Value="736"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.830" Value="812"/>
+</DoubleAnimationUsingKeyFrames>
+<DoubleAnimationUsingKeyFrames Storyboard.TargetName="Merge3" Storyboard.TargetProperty="(Canvas.Top)">
+<LinearDoubleKeyFrame KeyTime="0:0:7.410" Value="304"/>
+<LinearDoubleKeyFrame KeyTime="0:0:7.830" Value="435"/>
+</DoubleAnimationUsingKeyFrames>
+<StringAnimationUsingKeyFrames Storyboard.TargetName="Total" Storyboard.TargetProperty="Text">
+<DiscreteStringKeyFrame KeyTime="0:0:0.000" Value="0 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:0.250" Value="5 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:0.500" Value="10 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:0.750" Value="15 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:1.000" Value="20 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:1.250" Value="25 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:1.500" Value="30 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:1.750" Value="35 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:2.000" Value="40 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:2.250" Value="45 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:2.500" Value="50 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:2.750" Value="55 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:3.000" Value="60 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:3.250" Value="65 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:3.500" Value="70 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:3.750" Value="75 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:4.000" Value="80 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:4.250" Value="82 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:4.500" Value="84 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:4.750" Value="86 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:5.000" Value="88 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:5.250" Value="90 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:5.500" Value="92 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:5.750" Value="94 / 96 MiB"/>
+<DiscreteStringKeyFrame KeyTime="0:0:6.000" Value="96 / 96 MiB"/>
+</StringAnimationUsingKeyFrames>
+<StringAnimationUsingKeyFrames Storyboard.TargetName="State" Storyboard.TargetProperty="Text">
+<DiscreteStringKeyFrame KeyTime="0:0:0.000" Value="●   Downloading"/>
+<DiscreteStringKeyFrame KeyTime="0:0:6.000" Value="◈   Assembling"/>
+<DiscreteStringKeyFrame KeyTime="0:0:7.880" Value="✓   Completed"/>
+</StringAnimationUsingKeyFrames>
+<StringAnimationUsingKeyFrames Storyboard.TargetName="Summary" Storyboard.TargetProperty="Text">
+<DiscreteStringKeyFrame KeyTime="0:0:0.000" Value="Download progress"/>
+<DiscreteStringKeyFrame KeyTime="0:0:6.000" Value="Assembling World Atlas.zip   ·   A → B → C → D"/>
+<DiscreteStringKeyFrame KeyTime="0:0:7.880" Value="World Atlas.zip   ·   Ready to open"/>
+</StringAnimationUsingKeyFrames>
+</Storyboard>
+</Canvas.Resources>
+<Border  Canvas.Left="0" Canvas.Top="0" Width="1000" Height="506" Background="#101720" CornerRadius="0" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="30" Canvas.Top="19" Text="World Atlas.zip" Foreground="#ECF2F7" FontSize="30" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+<TextBlock  Canvas.Left="31" Canvas.Top="62" Text="Direct download    /    96 MiB" Foreground="#A4B2C3" FontSize="14" FontFamily="Segoe UI" FontWeight="Normal"/>
+<Border  Canvas.Left="784" Canvas.Top="30" Width="186" Height="31" Background="#20342D" CornerRadius="15" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock x:Name="State" Canvas.Left="801" Canvas.Top="35" Text="●   Downloading" Foreground="#C7FA83" FontSize="14" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+<Border  Canvas.Left="25" Canvas.Top="95" Width="950" Height="263" Background="#19232E" CornerRadius="12" BorderThickness="1" BorderBrush="#364654"/>
+<TextBlock  Canvas.Left="48" Canvas.Top="112" Text="SOURCE" Foreground="#A4B2C3" FontSize="12" FontFamily="Consolas" FontWeight="Bold"/>
+<TextBlock  Canvas.Left="252" Canvas.Top="112" Text="CONNECTIONS" Foreground="#A4B2C3" FontSize="12" FontFamily="Consolas" FontWeight="Bold"/>
+<TextBlock  Canvas.Left="594" Canvas.Top="112" Text="SAVED FILE RANGES" Foreground="#A4B2C3" FontSize="12" FontFamily="Consolas" FontWeight="Bold"/>
+<Path Data="M152,237 L175,237 L209,187 L254,187" Fill="Transparent" Stroke="#486643" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<Canvas x:Name="Byte0_0" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#C7FA83"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#76A84E"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#C7FA83"/></Canvas>
+<Canvas x:Name="Byte0_1" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#C7FA83"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#76A84E"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#C7FA83"/></Canvas>
+<Path Data="M152,237 L175,237 L209,287 L254,287" Fill="Transparent" Stroke="#345C72" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<Canvas x:Name="Byte1_0" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#6FD7FF"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#418EAF"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#6FD7FF"/></Canvas>
+<Canvas x:Name="Byte1_1" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#6FD7FF"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#418EAF"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#6FD7FF"/></Canvas>
+<Path Data="M423,187 L465,187 L503,167 L590,167" Fill="Transparent" Stroke="#486643" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<Canvas x:Name="Byte2_0" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#C7FA83"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#76A84E"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#C7FA83"/></Canvas>
+<Canvas x:Name="Byte2_1" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#C7FA83"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#76A84E"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#C7FA83"/></Canvas>
+<Path Data="M423,187 L465,187 L503,209 L590,209" Fill="Transparent" Stroke="#486643" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<Canvas x:Name="Byte3_0" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#C7FA83"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#76A84E"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#C7FA83"/></Canvas>
+<Canvas x:Name="Byte3_1" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#C7FA83"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#76A84E"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#C7FA83"/></Canvas>
+<Path Data="M423,287 L465,287 L503,267 L590,267" Fill="Transparent" Stroke="#345C72" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<Canvas x:Name="Byte4_0" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#6FD7FF"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#418EAF"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#6FD7FF"/></Canvas>
+<Canvas x:Name="Byte4_1" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#6FD7FF"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#418EAF"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#6FD7FF"/></Canvas>
+<Path Data="M423,287 L465,287 L503,309 L590,309" Fill="Transparent" Stroke="#345C72" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<Canvas x:Name="Byte5_0" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#6FD7FF"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#418EAF"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#6FD7FF"/></Canvas>
+<Canvas x:Name="Byte5_1" Canvas.Left="0" Canvas.Top="0"><Path Data="M0,2 L6,0 12,2 6,5 Z" Fill="#6FD7FF"/><Path Data="M0,2 L6,5 6,8 0,5 Z" Fill="#418EAF"/><Path Data="M6,5 L12,2 12,5 6,8 Z" Fill="#6FD7FF"/></Canvas>
+<Border  Canvas.Left="48" Canvas.Top="205" Width="106" Height="64" Background="#263443" CornerRadius="9" BorderThickness="1" BorderBrush="#43556A"/>
+<Path Data="M60,226 L78,226 78,231 60,231 Z M60,234 L78,234 78,239 60,239 Z" Fill="#92A6B9" Stroke="Transparent" StrokeThickness="1" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+<TextBlock  Canvas.Left="60" Canvas.Top="242" Text="File server" Foreground="#ECF2F7" FontSize="14" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+<Border  Canvas.Left="252" Canvas.Top="157" Width="171" Height="61" Background="#202D39" CornerRadius="8" BorderThickness="1" BorderBrush="#435360"/>
+<Border  Canvas.Left="253" Canvas.Top="166" Width="3" Height="43" Background="#C7FA83" CornerRadius="1" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="268" Canvas.Top="164" Text="Wi-Fi" Foreground="#ECF2F7" FontSize="18" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+<TextBlock x:Name="Rate0" Canvas.Left="268" Canvas.Top="191" Text="12 MiB/s" Foreground="#C7FA83" FontSize="14" FontFamily="Consolas" FontWeight="Normal"/>
+<Border  Canvas.Left="252" Canvas.Top="257" Width="171" Height="61" Background="#202D39" CornerRadius="8" BorderThickness="1" BorderBrush="#435360"/>
+<Border  Canvas.Left="253" Canvas.Top="266" Width="3" Height="43" Background="#6FD7FF" CornerRadius="1" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="268" Canvas.Top="264" Text="USB tether" Foreground="#ECF2F7" FontSize="18" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+<TextBlock x:Name="Rate1" Canvas.Left="268" Canvas.Top="291" Text="8 MiB/s" Foreground="#6FD7FF" FontSize="14" FontFamily="Consolas" FontWeight="Normal"/>
+<Border  Canvas.Left="590" Canvas.Top="155" Width="25" Height="25" Background="#283845" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="598" Canvas.Top="158" Text="A" Foreground="#C7FA83" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<TextBlock  Canvas.Left="628" Canvas.Top="157" Text="0–24 MiB" Foreground="#ECF2F7" FontSize="14" FontFamily="Consolas" FontWeight="Normal"/>
+<Border  Canvas.Left="736" Canvas.Top="162" Width="194" Height="10" Background="#334352" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Fill0" Canvas.Left="736" Canvas.Top="162" Width="0" Height="10" Background="#C7FA83" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border  Canvas.Left="590" Canvas.Top="197" Width="25" Height="25" Background="#283845" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="598" Canvas.Top="200" Text="C" Foreground="#C7FA83" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<TextBlock  Canvas.Left="628" Canvas.Top="199" Text="48–72 MiB" Foreground="#ECF2F7" FontSize="14" FontFamily="Consolas" FontWeight="Normal"/>
+<Border  Canvas.Left="736" Canvas.Top="204" Width="194" Height="10" Background="#334352" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Fill1" Canvas.Left="736" Canvas.Top="204" Width="0" Height="10" Background="#C7FA83" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border  Canvas.Left="590" Canvas.Top="255" Width="25" Height="25" Background="#283845" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="598" Canvas.Top="258" Text="B" Foreground="#6FD7FF" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<TextBlock  Canvas.Left="628" Canvas.Top="257" Text="24–48 MiB" Foreground="#ECF2F7" FontSize="14" FontFamily="Consolas" FontWeight="Normal"/>
+<Border  Canvas.Left="736" Canvas.Top="262" Width="194" Height="10" Background="#334352" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Fill2" Canvas.Left="736" Canvas.Top="262" Width="0" Height="10" Background="#6FD7FF" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border  Canvas.Left="590" Canvas.Top="297" Width="25" Height="25" Background="#283845" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock  Canvas.Left="598" Canvas.Top="300" Text="D" Foreground="#6FD7FF" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<TextBlock  Canvas.Left="628" Canvas.Top="299" Text="72–96 MiB" Foreground="#ECF2F7" FontSize="14" FontFamily="Consolas" FontWeight="Normal"/>
+<Border  Canvas.Left="736" Canvas.Top="304" Width="194" Height="10" Background="#334352" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Fill3" Canvas.Left="736" Canvas.Top="304" Width="0" Height="10" Background="#6FD7FF" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border  Canvas.Left="25" Canvas.Top="373" Width="950" Height="108" Background="#1C2833" CornerRadius="12" BorderThickness="1" BorderBrush="#425460"/>
+<TextBlock x:Name="Summary" Canvas.Left="48" Canvas.Top="390" Text="Download progress" Foreground="#ECF2F7" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+<TextBlock x:Name="Total" Canvas.Left="752" Canvas.Top="391" Text="0 / 96 MiB" Foreground="#ECF2F7" FontSize="16" FontFamily="Consolas" FontWeight="Bold"/>
+<Border  Canvas.Left="48" Canvas.Top="429" Width="905" Height="27" Background="#304050" CornerRadius="4" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Part0" Canvas.Left="49" Canvas.Top="430" Width="0" Height="25" Background="#C7FA83" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock x:Name="Letter0" Canvas.Left="57" Canvas.Top="432" Text="A" Foreground="#16212A" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<Border x:Name="Merge0" Canvas.Left="736" Canvas.Top="162" Width="48" Height="10" Background="#F6FAFF" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Part1" Canvas.Left="501" Canvas.Top="430" Width="0" Height="25" Background="#C7FA83" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock x:Name="Letter1" Canvas.Left="509" Canvas.Top="432" Text="C" Foreground="#16212A" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<Border x:Name="Merge1" Canvas.Left="736" Canvas.Top="204" Width="48" Height="10" Background="#F6FAFF" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Part2" Canvas.Left="275" Canvas.Top="430" Width="0" Height="25" Background="#6FD7FF" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock x:Name="Letter2" Canvas.Left="283" Canvas.Top="432" Text="B" Foreground="#16212A" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<Border x:Name="Merge2" Canvas.Left="736" Canvas.Top="262" Width="48" Height="10" Background="#F6FAFF" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<Border x:Name="Part3" Canvas.Left="727" Canvas.Top="430" Width="0" Height="25" Background="#6FD7FF" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+<TextBlock x:Name="Letter3" Canvas.Left="735" Canvas.Top="432" Text="D" Foreground="#16212A" FontSize="14" FontFamily="Consolas" FontWeight="Bold"/>
+<Border x:Name="Merge3" Canvas.Left="736" Canvas.Top="304" Width="48" Height="10" Background="#F6FAFF" CornerRadius="3" BorderThickness="1" BorderBrush="Transparent"/>
+</Canvas>
