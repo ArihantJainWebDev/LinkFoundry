@@ -18,11 +18,11 @@ LinkFoundry started with a practical problem: losing a connection halfway throug
 
 ### Run the Windows ZIP
 
-1. Open [GitHub Releases](https://github.com/ArihantJainWebDev/LinkFoundry/releases) and download `PersonalDownloader-Windows-x64.zip` from **Assets** when available.
+1. Download the [Windows x64 beta ZIP](https://github.com/ArihantJainWebDev/LinkFoundry/releases/download/v0.1.0-beta/PersonalDownloader-Windows-x64.zip) from the [v0.1.0-beta release](https://github.com/ArihantJainWebDev/LinkFoundry/releases/tag/v0.1.0-beta).
 2. Right-click the ZIP and select **Extract All**.
 3. Open the extracted folder and double-click **PersonalDownloader.Desktop.exe**. The executable still uses the original project name.
 
-**Release status:** The source is on GitHub. A prebuilt ZIP has yet to be published there. Use the source instructions below to run the app today.
+**Release status:** Public beta. See [LICENSE](LICENSE) for the MIT license.
 
 ### Run from source today
 
